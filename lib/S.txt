@@ -16,8 +16,14 @@ MainAaxisAlignment = Row의 이것은 수평 방향,
 CrassAxisAlignment = Column의 이것은 수직방향,
 style->withOpacity = 투명도
 padding = Padding으로 child:Column을 감싼후 padding을 쓸때 edgeInset을 써야함
-padding->edgeInset->symmetric = horizontal(수직) 과 수평을 다룸
+padding->edgeInset->symmetric = horizontal(수직) 과 (vertical)수평을 다룸
 
 (3.1)
 F5 디버깅을 누르고 돋보기 모양을 누르면 Widget이 나오는데 거기에 구조도 나오고 폰에서 바꿀수도있고 등등 다양함
 
+(3.2)
+Container = html div 느낌
+decoration = 꾸며주기
+Boxdecoration
+Color.amber = 뒷배경
+borderRadius->circular() = 둥글기
