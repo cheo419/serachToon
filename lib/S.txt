@@ -4,3 +4,15 @@
 - 모든 위젯은 build 메서드를 사용해야한다.(build 또한 자동 완성 가능)
 - 모든 앱은 CupertinoApp 혹은 MaterialApp 중에 선택해야 하는데, materialapp이 훨씬 보기 좋으니 MaterialApp을 쓰자.
 - 모든 화면은 Scaffold(구조)를 가져야 한다.
+
+#3 (3.0)
+Row = html div 같은 느낌
+Column = 하나의 child만 가지지 않음 대신 children List 가 있음
+TextStyle
+SizeBox = margin 느낌
+MainAaxisAlignment = Row의 이것은 수평 방향,
+CrassAxisAlignment = Column의 이것은 수직방향,
+style->withOpacity = 투명도
+padding = Padding으로 child:Column을 감싼후 padding을 쓸때 edgeInset을 써야함
+padding->edgeInset->symmetric = horizontal(수직) 과 수평을 다룸
+
