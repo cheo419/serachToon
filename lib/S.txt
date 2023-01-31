@@ -27,3 +27,16 @@ decoration = 꾸며주기
 Boxdecoration
 Color.amber = 뒷배경
 borderRadius->circular() = 둥글기
+
+(3.3)
+const(constant) = 수정불가 compil전에 그 value를 알수있는 변수
+비주얼스튜디오코드 세팅 :
+"editor.codeActionsOnSave": {
+            "source.fixAll": true
+        },
+-> 이걸 settings.json 에 넣어놓으면 자동으로 const 추가해줌
+왼쪽 extensions에 가서 dart 톱니바퀴모양 누르고 previewflutteruiguides 체크
+
+(3.4)
+감싸고싶은 코드에 나오는 전구버튼을 누르고 감싸고싶은 코드를 누르면 그코드로 감싸줌 리팩토링
+remove위젯도 존재
