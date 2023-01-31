@@ -6,13 +6,18 @@
 - 모든 화면은 Scaffold(구조)를 가져야 한다.
 
 #3 (3.0)
-Row = html div 같은 느낌
-Column = 하나의 child만 가지지 않음 대신 children List 가 있음
+여기파트엔 많은것들이 서로 위아래에 있기 때문에 Column을 씀
+Row = html div 같은 느낌, 서로를 옆에 놓고싶을때 씀
+Column = 하나의 child만 가지지 않음 대신 children List 가 있음, 서로를 위아래에 놓고싶을때 씀
 TextStyle
+Color = 16진법으로 쓸수도있고 RGBO로 할수도 있음
 SizeBox = margin 느낌
 MainAaxisAlignment = Row의 이것은 수평 방향,
 CrassAxisAlignment = Column의 이것은 수직방향,
 style->withOpacity = 투명도
 padding = Padding으로 child:Column을 감싼후 padding을 쓸때 edgeInset을 써야함
 padding->edgeInset->symmetric = horizontal(수직) 과 수평을 다룸
+
+(3.1)
+F5 디버깅을 누르고 돋보기 모양을 누르면 Widget이 나오는데 거기에 구조도 나오고 폰에서 바꿀수도있고 등등 다양함
 
