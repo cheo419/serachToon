@@ -50,3 +50,4 @@ clipBehavior.HardEdge = 나머지부분 사라지게만듬
 
 (3.8)
 Icons. 하고 아이콘 생성할때 각 코드옆에 > 를 누르면 아이콘 미리보기 가능
+SingleChildScrollView = 화면 스크롤링 가능하게 해줌
