@@ -51,3 +51,12 @@ clipBehavior.HardEdge = 나머지부분 사라지게만듬
 (3.8)
 Icons. 하고 아이콘 생성할때 각 코드옆에 > 를 누르면 아이콘 미리보기 가능
 SingleChildScrollView = 화면 스크롤링 가능하게 해줌
+
+(3.9)
+widgets 내용들은 꾸며주는 느낌 main엔 뭘 넣을지 정하는 느낌
+currency_card.dart에 order 뒤에 ?이거랑 :이거는 -> this 라면(?) 블랙을주고 아니라면(:) 화이트를 줘라
+
+#4 (4.0)
+Stateful Widget
+지금까지 Stateless widget을 사용해왔고 그건 build 메서드를 통해서 단지 UI를 출력할 뿐이였다,
+실시간으로 데이터의 변화를 보고싶을땐 Stateful widget 사용
