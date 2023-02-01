@@ -62,7 +62,7 @@ Stateful Widget
 실시간으로 데이터의 변화를 보고싶을땐 Stateful widget 사용
 
 (4.1)
-setState (fucntion) = State클래스에게 데이터가 변경되었다고 알리는 함수
+setState (fucntion) = State클래스에게 데이터가 변경되었다고 알리는 함수 (바로적용됌)
 ex) 
 void onClicked() {
     setState(() {
