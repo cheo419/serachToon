@@ -40,3 +40,10 @@ const(constant) = 수정불가 compil전에 그 value를 알수있는 변수
 (3.4)
 감싸고싶은 코드에 나오는 전구버튼을 누르고 감싸고싶은 코드를 누르면 그코드로 감싸줌 리팩토링
 remove위젯도 존재
+
+(3.7)
+Icon->Icons. = 아이콘을 불러옴 필요하면 인터넷에서 다운받기
+scale
+Transform.translate->offset = 좌표
+clipBehavior = 어떤아이템이 overflow가 되었을때 카드와 같은 container로 하여금 어떻게 동작하게끔 할건지 알려주는 장치
+clipBehavior.HardEdge = 나머지부분 사라지게만듬
