@@ -78,8 +78,16 @@ void onClicked() {
 Build Context = 이해하기 쉬우면서 중요함, context는 Text 이전에 있는 모든 상위요소들에 대한 정보
 Extract widtet사용
 코드를 보면 titleLarge뒤에 ! 가 오는데 이건 titleLarge,color가 존재한다는것을 명확히 알려주는것
+Theme = 메인에 있는 변수를 불러와줌..? ex)메인에서 cardColor를 베이지로
+넣고 다른 .dart에서 cardColor를 쓰면 베이지색이 나옴
 
 (4.4)
 widget lifecycle
 initState를 쓰는경우는 부모요소에 의존하는 데이터를 초기화해야하는경우 (오직한번만호출됌), 잘사용하진않음
 dispose = 위젯이 스크린에서 제거될때 호출되는 메서드
+
+#5 (5.0)
+Flexible = 하드코딩되는값을 만들게해줌, 높이가 200픽셀,너비가100픽셀이 아니라 ui를 비율에 기반해서 더 유연하게 만들어 준다.
+ex)Flexible 안에 flex를 넣고 :2 이런식으로 숫자를 넣으면 얼마나 공간을 차지할지 비율을 정할수 있다.
+alignment = css에 align 이랑 비슷
+Expanded(widget) = 말그대로 모든걸 확장시켜줌
