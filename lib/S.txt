@@ -78,3 +78,8 @@ void onClicked() {
 Build Context = 이해하기 쉬우면서 중요함, context는 Text 이전에 있는 모든 상위요소들에 대한 정보
 Extract widtet사용
 코드를 보면 titleLarge뒤에 ! 가 오는데 이건 titleLarge,color가 존재한다는것을 명확히 알려주는것
+
+(4.4)
+widget lifecycle
+initState를 쓰는경우는 부모요소에 의존하는 데이터를 초기화해야하는경우 (오직한번만호출됌), 잘사용하진않음
+dispose = 위젯이 스크린에서 제거될때 호출되는 메서드
