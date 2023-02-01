@@ -73,3 +73,8 @@ void onClicked() {
     counter = counter + 1;
     setState(() {});
   } -> 이렇게해도 돌아감
+
+(4.3)
+Build Context = 이해하기 쉬우면서 중요함, context는 Text 이전에 있는 모든 상위요소들에 대한 정보
+Extract widtet사용
+코드를 보면 titleLarge뒤에 ! 가 오는데 이건 titleLarge,color가 존재한다는것을 명확히 알려주는것
