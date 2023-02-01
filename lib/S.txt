@@ -60,3 +60,16 @@ currency_card.dart에 order 뒤에 ?이거랑 :이거는 -> this 라면(?) 블�
 Stateful Widget
 지금까지 Stateless widget을 사용해왔고 그건 build 메서드를 통해서 단지 UI를 출력할 뿐이였다,
 실시간으로 데이터의 변화를 보고싶을땐 Stateful widget 사용
+
+(4.1)
+setState (fucntion) = State클래스에게 데이터가 변경되었다고 알리는 함수
+ex) 
+void onClicked() {
+    setState(() {
+      counter = counter + 1;
+    });
+  } -> 가독성을 위해 이렇게 하는게 맞지만
+void onClicked() {
+    counter = counter + 1;
+    setState(() {});
+  } -> 이렇게해도 돌아감
