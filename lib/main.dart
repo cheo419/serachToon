@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:toonsearch/screens/home_screen.dart';
+import 'package:toonsearch/services/api_service.dart';
 
 void main() {
+  ApiService().getTodaysToons();
   runApp(const App());
 }
 
