@@ -135,3 +135,7 @@ FutureBuilder = 매개변수가 필요, Builder는 UI를 그려주는 함수, aw
 (6.7)
 ListView = 많은양의 데이터를 연속적으로 보여주고 싶을때 여러항목을 나열하는데 최적화된 widget, 코드참조
 
+(6.8)
+clipBehavior = 자식의 부모영역침범을 제어하는 방법
+boxshoadow -> blurRadius = 그림자가 얼마나 멀리까지 드리울지 정함
+
