@@ -91,3 +91,15 @@ Flexible = 하드코딩되는값을 만들게해줌, 높이가 200픽셀,너비�
 ex)Flexible 안에 flex를 넣고 :2 이런식으로 숫자를 넣으면 얼마나 공간을 차지할지 비율을 정할수 있다.
 alignment = css에 align 이랑 비슷
 Expanded(widget) = 말그대로 모든걸 확장시켜줌
+
+(5.3)
+코드참조 date format 한 방법(home_screen.dart 52줄) ->
+duration.toString()
+duration.toString().split(".")
+duration.toString().split(".").first
+duration.toString().split(".").first.substring(2, 7)
+결과)
+0:25:00.000000
+[0:25:00, 000000]
+0:25:00
+25:00
