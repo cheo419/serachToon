@@ -131,3 +131,7 @@ tip) Future를 기다리기위해 await을 사용할때는 꼭 async를 쓸것
 
 (6.6)
 FutureBuilder = 매개변수가 필요, Builder는 UI를 그려주는 함수, await 쓸 필요가 없음, StatefulWidget을 쓸필요가 없음, snapshot은 future의 상태
+
+(6.7)
+ListView = 많은양의 데이터를 연속적으로 보여주고 싶을때 여러항목을 나열하는데 최적화된 widget, 코드참조
+
