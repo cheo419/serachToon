@@ -128,3 +128,6 @@ get에 마우스를 올려보면 알수있듯이 future타입인걸 볼수있음
 (6.4)
 복습내용 : pub.dev에서 http패키지를 다운받았고 API에 HTTP요청을 보냈고 http.get은 Future라는 타입을 반환하고 Future란 당장 완료될수있는 작업이 아니란걸 의미 그렇기 때문에 작업이 끝날수있을때까지 기다리기로 하고 그작업이 마무리가 되면 Response라는 타입으로 반환, Response의 body부분을 디코딩, body는 string, string을 JSON형식으로 변환
 tip) Future를 기다리기위해 await을 사용할때는 꼭 async를 쓸것
+
+(6.6)
+FutureBuilder = 매개변수가 필요, Builder는 UI를 그려주는 함수, await 쓸 필요가 없음, StatefulWidget을 쓸필요가 없음, snapshot은 future의 상태
