@@ -103,3 +103,13 @@ duration.toString().split(".").first.substring(2, 7)
 [0:25:00, 000000]
 0:25:00
 25:00
+
+#6 (6.0)
+네이버웹툰 서치 성인웹툰 제외, 내용은 저작권때문에 공개한 정보만 사용
+
+(6.1)
+위젯은 ID같은 식별자 역활을 하는 key가 있음 Flutter가 위젯을 빠르게 찾을수있게.
+scaffold 추가설명 = screen을 위한 기본적인 레이아웃과 설정을 제공해줌
+AppBar
+AppBar->foregroundColor = appbar 글씨 색
+elevation = 그림자
