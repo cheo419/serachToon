@@ -139,3 +139,9 @@ ListView = 많은양의 데이터를 연속적으로 보여주고 싶을때 여�
 clipBehavior = 자식의 부모영역침범을 제어하는 방법
 boxshoadow -> blurRadius = 그림자가 얼마나 멀리까지 드리울지 정함
 
+(6.9)
+GestureDetector = 누군가가 웹툰을 탭했을때 사용자를 그페이지로 보낼수있도록 이벤트의 발생을 감지함, 대부분의 동작을 감지하도록 해줌
+-> onTap = onTopup과down의 조합, 손가락으로 올렸다 내렸다를 감지
+Navigator = route를 푸시할수있음 (route는 DetailScreen같은 StatelessWidget을 애니메이션 효과로 감싸서 스크린처럼 보이도록 함)
+MaterialPageRoute = 클래스, StatelessWidget을 route로 감싸서 다른 스크린처럼 보이게 해줌
+fullscreenDialog = 바닥부터 나오게 해줌, x표시도 생성
