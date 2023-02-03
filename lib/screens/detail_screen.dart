@@ -112,13 +112,19 @@ class _DetailScreenState extends State<DetailScreen> {
                           Container(
                             margin: const EdgeInsets.only(bottom: 10),
                             decoration: BoxDecoration(
+                              color: Colors.white,
+                              border: const Border(
+                                top: BorderSide(color: Colors.green),
+                                left: BorderSide(color: Colors.green),
+                                right: BorderSide(color: Colors.green),
+                                bottom: BorderSide(color: Colors.green),
+                              ),
                               borderRadius: BorderRadius.circular(20),
-                              color: Colors.green.shade400,
                               boxShadow: [
                                 BoxShadow(
-                                  blurRadius: 5,
-                                  offset: const Offset(5, 5),
-                                  color: Colors.black.withOpacity(0.1),
+                                  blurRadius: 6,
+                                  offset: const Offset(4, 4),
+                                  color: Colors.black.withOpacity(0.2),
                                 ),
                               ],
                             ),
@@ -134,13 +140,14 @@ class _DetailScreenState extends State<DetailScreen> {
                                   Text(
                                     episode.title,
                                     style: const TextStyle(
-                                      color: Colors.white,
+                                      color: Colors.green,
                                       fontSize: 16,
+                                      fontWeight: FontWeight.w600,
                                     ),
                                   ),
                                   const Icon(
                                     Icons.chevron_right_rounded,
-                                    color: Colors.white,
+                                    color: Colors.green,
                                   ),
                                 ],
                               ),
