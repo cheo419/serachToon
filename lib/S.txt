@@ -145,3 +145,6 @@ GestureDetector = 누군가가 웹툰을 탭했을때 사용자를 그페이지�
 Navigator = route를 푸시할수있음 (route는 DetailScreen같은 StatelessWidget을 애니메이션 효과로 감싸서 스크린처럼 보이도록 함)
 MaterialPageRoute = 클래스, StatelessWidget을 route로 감싸서 다른 스크린처럼 보이게 해줌
 fullscreenDialog = 바닥부터 나오게 해줌, x표시도 생성
+
+(6.10)
+Hero widget = 화면을 전활할때 애니메이션을 제공해줌, 코드참조
