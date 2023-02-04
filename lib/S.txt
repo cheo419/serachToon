@@ -148,3 +148,7 @@ fullscreenDialog = 바닥부터 나오게 해줌, x표시도 생성
 
 (6.10)
 Hero widget = 화면을 전활할때 애니메이션을 제공해줌, 코드참조
+
+(6.16)
+에피소드클릭시 그브라우저로 이동하게끔 하기,
+https://pub.dev/packages/url_launcher 에서 installing 하고 readme에서 안드로이드 다운,
