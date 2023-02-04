@@ -151,4 +151,8 @@ Hero widget = 화면을 전활할때 애니메이션을 제공해줌, 코드참�
 
 (6.16)
 에피소드클릭시 그브라우저로 이동하게끔 하기,
-https://pub.dev/packages/url_launcher 에서 installing 하고 readme에서 안드로이드 다운,
+https://pub.dev/packages/url_launcher 에서 installing 하고 readme에서 안드로이드 다운
+
+(6.17)
+이걸 사용하면 핸드폰 저장소에 데이터를 담을수 있음
+https://pub.dev/packages/shared_preferences
